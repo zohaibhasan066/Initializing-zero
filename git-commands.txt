@@ -15,8 +15,8 @@ git branch -D branch_name	#force delete branch
 git push origin --delete branch_name	#delete branch on remote
 git branch -m new_branch_name	#rename branch
 git branch	#view all branches
-git branch -r	#view all branches
-git branch -a	#view all branches
+git branch -r	#view all the branches(only on remote)
+git branch -a	#view all the branches (on remote and also on local )
 git remote add origin repository_url	#add remote repository URL
 git fetch
 git pull
